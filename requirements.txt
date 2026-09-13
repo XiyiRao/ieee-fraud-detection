@@ -1,0 +1,12 @@
+# IEEE-CIS 电商交易反欺诈项目依赖
+# 安装：pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+lightgbm>=4.0
+scikit-learn>=1.3
+shap>=0.44
+matplotlib>=3.7
+seaborn>=0.12
+scipy>=1.10
+# 可选：用于 parquet 格式中间文件（没有会自动降级为 pkl）
+pyarrow>=14.0

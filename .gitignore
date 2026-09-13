@@ -1,0 +1,21 @@
+# 数据文件（体量大，不进版本库）
+data/*.csv
+data/processed/
+# 可选：保留 reports/figures/ 下的图片（取消下面这行的注释即可忽略图片）
+# reports/figures/*.png
+
+# Python 环境
+.venv/
+__pycache__/
+*.pyc
+
+# 模型文件（体量大，可自行决定是否忽略）
+models/*.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 内部任务书（不进公开仓库）
+实验任务_金牌方案补强.md
+reports/_s*_stdout.log
